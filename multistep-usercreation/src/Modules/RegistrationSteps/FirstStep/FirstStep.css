@@ -1,0 +1,13 @@
+.step {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 20px;
+    display: block;
+}
+
+button {
+    margin-bottom: 10px;
+}
