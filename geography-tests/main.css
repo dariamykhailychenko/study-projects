@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+	margin: 0;
+}
+
+img {
+    width: 80%;
+}
+
+label {
+    margin: 10px;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+span {
+    padding-left: 5px;
+    color: #2e2e2e;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 135, 143);
+    color: white;
+}
+
+.content {
+    overflow: hidden;
+    margin: 20px 80px;
+}
+
+.content-header {
+    overflow: hidden;
+    margin: 20px 200px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+}
+
+.title {
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px 30px 50px 30px;
+    width: 40%;
+	padding: 10px 15px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 15px;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    align-items: center;
+    color: rgb(90, 89, 89);
+}
+
+.answer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.green {
+    color: #3cd83c;
+}
+
+.red {
+    color: red;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.button-block {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 15px 60px;
+    background-color: #ad0000;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(128, 135, 143);
+}
+
+@media (max-width: 1199px) {
+    .content-header {
+        margin: 0;
+    }
+
+    .content {
+        margin: 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .button {
+        margin-bottom: 10px;
+    }
+}
